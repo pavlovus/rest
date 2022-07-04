@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/arrows.js" defer></script>
+    <script src="/js/popup.js" defer></script>
+    <script src="/js/contacts.js" defer></script>
+    <script src="/js/slider.js" defer></script>
+    <script src="/js/menu.js" defer></script>
+    <script src="/js/notification.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="section--1">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="#" class="logo__link">RESTAURANT</a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link nav__link--selected">Menu</a>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link nav__link--feedback">Feedback</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link nav__link--contacts">Contacts</a>
+                            <div class="contacts contacts--header">
+                                <ul class="contacts__list">
+                                    <li class="contacts__item">
+                                        <img class="contacts__img" src="/img/smartphone-call.png" alt="">
+                                        <span class="contacts__text">+38 098 123 45 67</span>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <img class="contacts__img" src="/img/email.png" alt="">
+                                        <span class="contacts__text">restaurant@gmail.com</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="soc">
+                    <span class="soc__text">Folow us</span>
+                    <ul class="soc__list">
+                        <li class="soc__item">
+                            <a href="#" class="soc__link">
+                                <img class="soc__img" src="/img/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="soc__item">
+                            <a href="#" class="soc__link">
+                                <img class="soc__img" src="/img/instagram.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="soc__item">
+                            <a href="#" class="soc__link">
+                                <img class="soc__img" src="/img/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div class="menu">
+                <h1 class="menu__title">Menu</h1>
+                <div class="menu__section menu__section--active">
+                    <button class="menu__button">
+                        <span>Soups</span>
+                        <svg class="menu__icon" fill ="white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" viewBox="0 0 330 330" style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                            <path id="XMLID_93_"
+                                d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                        	l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                        	C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                            <g>
+                            </g>
+                        </svg>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <img src="/img/menu1.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">borch</h3>
+                            <span class="menu__text">Traditional ukrainian red borch</span>
+                            <span class="menu__price">84 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/soup2.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">chicken brine</h3>
+                            <span class="menu__text">Homemade chicken brine with meat and noodles</span>
+                            <span class="menu__price">70 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/soup3.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name"> green borch</h3>
+                            <span class="menu__text">Soup with young sorrel, chicken and egg</span>
+                            <span class="menu__price">115 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/soup4.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">goulash</h3>
+                            <span class="menu__text">Spicy meat goulash soup with veal and vegetables</span>
+                            <span class="menu__price">135 UAH</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__section menu__section--active">
+                    <button class="menu__button">
+                    <span>Main courses</span>
+                    <svg class="menu__icon" fill="white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
+                        style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                        <path id="XMLID_93_"
+                            d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                	l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                	C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                        <g>
+                        </g>
+                    </svg>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <img src="/img/main1.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">potatoes with greens</h3>
+                            <span class="menu__text">Young potatoes with green butter, dill, garlic</span>
+                            <span class="menu__price">74 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/main2.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">Vareniks with potatoes</h3>
+                            <span class="menu__text">Homemade chicken brine with meat and noodles</span>
+                            <span class="menu__price">95 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/main3.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">trout</h3>
+                            <span class="menu__text">Farm, juicy, fragrant trout baked in the oven</span>
+                            <span class="menu__price">349 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/main4.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">pork sausages</h3>
+                            <span class="menu__text">A duo of pork sausages with a smoked taste</span>
+                            <span class="menu__price">239 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/main5.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">steak</h3>
+                            <span class="menu__text">Classic veal steak</span>
+                            <span class="menu__price">175 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/main6.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">Pork ribs bbq</h3>
+                            <span class="menu__text">Pork ribs, stewed in a spicy marinade</span>
+                            <span class="menu__price">135 UAH</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__section menu__section--active">
+                    <button class="menu__button">
+                        <span>Salads</span>
+                        <svg class="menu__icon" fill="white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
+                            style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                            <path id="XMLID_93_"
+                                d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                	l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                	C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                            <g>
+                            </g>
+                        </svg>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <img src="/img/salat1.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">Salad from the gatden</h3>
+                            <span class="menu__text">Fresh lettuce, spinach, ripe tomatoes, crispy cucumber</span>
+                            <span class="menu__price">120 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/salat2.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">salad with falafel</h3>
+                            <span class="menu__text">Falafel made from chopped chickpeas with the addition of cilantro and parsley</span>
+                            <span class="menu__price">189 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/salat3.png" alt="" class="menu__img">
+                            <h3 class="menu__name">SALAD WITH BEEF</h3>
+                            <span class="menu__text">Beef tenderloin, mushrooms, green beans, cherry tomatoes</span>
+                            <span class="menu__price">229 UAH</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__section menu__section--active">
+                    <button class="menu__button">
+                        <span>chicken</span>
+                        <svg class="menu__icon" fill="white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
+                            style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                            <path id="XMLID_93_"
+                                d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                                	l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                                	C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                            <g>
+                            </g>
+                        </svg>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <img src="/img/chicken1.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">buffalo chik</h3>
+                            <span class="menu__text">Chicken wings are covered with butter and garlic sauce</span>
+                            <span class="menu__price">129 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/chicken2.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">asia chik</h3>
+                            <span class="menu__text">Sweet and spicy chicken wings covered with mirror glaze</span>
+                            <span class="menu__price">129 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/chicken3.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">crunchy chik</h3>
+                            <span class="menu__text">Crispy chicken wings breaded in corn grits</span>
+                            <span class="menu__price">129 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/chicken4.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">spicy chik</h3>
+                            <span class="menu__text">Spicy chicken wings</span>
+                            <span class="menu__price">129 UAH</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu__section menu__section--active">
+                    <button class="menu__button">
+                        <span>Snaks</span>
+                        <svg class="menu__icon" fill="white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
+                            style="enable-background:new 0 0 330 330;" xml:space="preserve">
+                            <path id="XMLID_93_"
+                                d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394
+                                                                                                	l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393
+                                                                                                	C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z" />
+                            <g>
+                            </g>
+                        </svg>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <img src="/img/snaks1.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">Salad from the gatden</h3>
+                            <span class="menu__text">Fresh lettuce, spinach, ripe tomatoes, crispy cucumber</span>
+                            <span class="menu__price">120 UAH</span>
+                        </li>
+                        <li class="menu__item">
+                            <img src="/img/snaks2.jpg" alt="" class="menu__img">
+                            <h3 class="menu__name">salad with falafel</h3>
+                            <span class="menu__text">Falafel made from chopped chickpeas with the addition of cilantro and
+                                parsley</span>
+                            <span class="menu__price">189 UAH</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="container">
+            <footer class="footer">
+                <div class="contacts">
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
+                            <img class="contacts__img" src="/img/location.png" alt="">
+                            <span class="contacts__text">Львів, вул. Т. Шевченка, 31 </span>
+                        </li>
+                        <li class="contacts__item">
+                            <img class="contacts__img" src="/img/smartphone-call.png" alt="">
+                            <span class="contacts__text">+38 098 123 45 67</span>
+                        </li>
+                        <li class="contacts__item">
+                            <img class="contacts__img" src="/img/email.png" alt="">
+                            <span class="contacts__text">restaurant@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="shedule">
+                    <h3 class="shedule__title">Opening hours</h3>
+                    <ul class="shedule__list">
+                        <li class="shedule__item">
+                            <span class="shedule__text">Mon - Fri: 8am - 8pm</span>
+                        </li>
+                        <li class="shedule__item">
+                            <span class="shedule__text">Saturday: 9am - 7pm</span>
+                        </li>
+                        <li class="shedule__item">
+                            <span class="shedule__text">Sunday: 9am - 8pm</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="soc column">
+                    <span class="soc__text margin-bottom">Folow us</span>
+                    <ul class="soc__list">
+                        <li class="soc__item">
+                            <a href="#" class="soc__link">
+                                <img class="soc__img" src="/img/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="soc__item">
+                            <a href="#" class="soc__link">
+                                <img class="soc__img" src="/img/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="soc__item">
+                            <a href="#" class="soc__link">
+                                <img class="soc__img" src="/img/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="up">
+                    <img class="up__arrow" src="/img/up-arrow.png" alt="arrow">
+                </div>
+            </footer>
+    
+        </div>
+    </section>
+    <div class="popup">
+        <div class="popup__content">
+            <button class="popup__close"></button>
+            <form class="popup__form">
+                <div class="popup__title">Here you can leave your suggestions and comments about the service in our
+                    restaurant</div>
+                <label class="popup__label">
+                    <div class="popup__sub">Name</div>
+                    <div class="popup__input-wrapp">
+                        <input type="text" class="popup__input">
+                    </div>
+                </label>
+                <label class="popup__label">
+                    <div class="popup__sub">Email</div>
+                    <div class="popup__input-wrapp email">
+                        <input type="email" class="popup__input">
+                    </div>
+                </label>
+                <label class="popup__label">
+                    <div class="popup__sub">Your response</div>
+                    <textarea class="popup__textarea popup__input" id="" placeholder="Enter text"></textarea>
+                </label>
+                <div class="popup__button">
+                    <button class="button" type="submit">Send</button>
+                </div>
+            </form>
+            <div class="popup__subtitle">Thanks for your feedback</div>
+        </div>
+    </div>
+    <div class="notification">
+        <svg class="notification__icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g>
+                <g>
+                    <path d="M256,0C114.837,0,0,114.843,0,256s114.837,256,256,256s256-114.843,256-256S397.163,0,256,0z M289.391,389.565
+                			c0,18.442-14.949,33.391-33.391,33.391s-33.391-14.949-33.391-33.391V222.609c0-18.442,14.949-33.391,33.391-33.391
+                			s33.391,14.949,33.391,33.391V389.565z M256,155.826c-18.442,0-33.391-14.949-33.391-33.391S237.558,89.044,256,89.044
+                			s33.391,14.949,33.391,33.391S274.442,155.826,256,155.826z" />
+                </g>
+            </g>
+        </svg>
+    
+        <p class="notification__text">We are waiting for your call:
+            <a class="notification__contact" href="">+38 098 123 45 67</a>
+        </p>
+        <button class="notification__button"></button>
+        <div class="notification__indicator"></div>
+    </div>
+</body>
+</html>
